@@ -45,14 +45,7 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.appendFile(fileName, data, err => {
-        if (err) {
-            console.log(err)
-        } else
-        console.log('Successful!')
-    });
-}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -62,16 +55,9 @@ function init() {
 
     // assemble answers
     .then((answer) => {
-
-    // write result in file
-    fs.appendFile('ReadMe.md', answer);
-    })
-
-    //console err if err
-    .catch((err) => {
-        console.log(err);
-    })
-};
-
+        return fs.writeFileSync(path.join (process.cwd(), 'README.md'), generate(answer));
+    });
+}
+    
 // Function call to initialize app
 init();
