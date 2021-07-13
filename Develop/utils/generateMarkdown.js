@@ -33,42 +33,42 @@ function renderLicenseBadge(answer) {
 };
 
 function generateMarkdown(answer) {
-    return `# ${answer.title}
+  return `
+# ${answer.title}
   
-    ## Table of Contents:
-    1. [Username](## Username)
-    2. [Email](## Email)
-    3. [Description](## Description)
-    4. [Installation](## Installation)
-    5. [Usage](## Usage)
-    6. [License](## License)
-    7. [Contribution Guidelines](## Guidelines)
-    8. [Testing](## Testing)
+## Table of Contents:
+1. [Username](## Username)
+2. [Email](## Email)
+3. [Description](## Description)
+4. [Installation](## Installation)
+5. [Usage](## Usage)
+6. [License](## License)
+7. [Contribution Guidelines](## Guidelines)
+8. [Testing](## Testing)
 
-    ## Username
-    ${answer.user}
+## Username
+${answer.user}
 
-    ## Email
-    ${answer.email}
+## Email
+${answer.email}
 
-    ## Description
-    ${answer.description}
+## Description
+${answer.description}
 
-    ## Installation
-    ${answer.install}
+## Installation
+${answer.install}
 
-    ## Usage
-    ${answer.usage}
+## Usage
+${answer.usage}
 
-    ## License
-    ${renderLicenseBadge(answer)}
+## License
+${renderLicenseBadge(answer)}
 
-    ## Contribution Guidelines
-    ${answer.guidelines}
+## Contribution Guidelines
+${answer.guidelines}
 
-    ## Testing
-    ${answer.tests}
+## Testing
+${answer.tests}`
+}
 
-    `}
-
-  module.exports = generateMarkdown;
+module.exports = generateMarkdown;
