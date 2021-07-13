@@ -1,4 +1,4 @@
-# Test Readme
+# test readme
   
     ## Table of Contents:
     1. [Username](## Username)
@@ -14,24 +14,24 @@
     kygan
 
     ## Email
-    kyganda@
+    kygan@
 
     ## Description
-    testing markdown generation
+    testing license badges
 
     ## Installation
-    run in terminal
+    pass
 
     ## Usage
-    you don't 
+    pass
 
     ## License
      
 
     ## Contribution Guidelines
-    none
+    pass
 
     ## Testing
-    none
+    pass
 
     
