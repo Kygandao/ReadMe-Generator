@@ -3,7 +3,7 @@ function generateReadMe() {
 const path = require('path');
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markdown = require('./utils/generateMarkdown');
+const markdown = require('./Develop/utils/generateMarkdown');
 
 inquirer
     .prompt([
