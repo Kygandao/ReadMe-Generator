@@ -32,28 +32,18 @@ function renderLicenseBadge(answer) {
   } return licenseName
 };
 
-  // TODO: Create a function that returns the license link
-  // If there is no license, return an empty string
-  function renderLicenseLink(license) { }
-
-  // TODO: Create a function that returns the license section of README
-  // If there is no license, return an empty string
-  function renderLicenseSection(license) { }
-
-  // TODO: Create a function to generate markdown for README
-  function generateMarkdown(data) {
-    return `
-    # ${answer.title}
+function generateMarkdown(answer) {
+    return `# ${answer.title}
   
     ## Table of Contents:
-    1. [Username](#User)
-    2. [Email](#Email)
-    3. [Description](#Description)
-    4. [Installation](#Installation)
-    5. [Usage](#Usage)
-    6. [License](#License)
-    7. [Contribution Guidelines](#Contribution Guidelines)
-    8. [Testing](#Testing)
+    1. Username
+    2. Email
+    3. Description
+    4. Installation
+    5. Usage
+    6. License
+    7. Contribution Guidelines
+    8. Testing
 
     ## Username
     ${answer.user}
@@ -71,7 +61,7 @@ function renderLicenseBadge(answer) {
     ${answer.usage}
 
     ## License
-    ${answer.license}
+    ${renderLicenseBadge(answer)}
 
     ## Contribution Guidelines
     ${answer.guidelines}

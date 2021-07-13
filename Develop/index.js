@@ -54,8 +54,8 @@ inquirer
         },
     ])
 
-    .then((answers) => {
-        return fs.writeFileSync(path.join (process.cwd(), 'README.md'), markdown(answers))
+    .then((answer) => {
+        return fs.writeFileSync(path.join (process.cwd(), 'README.md'), markdown(answer))
     });
 }
 
