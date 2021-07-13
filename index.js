@@ -55,7 +55,7 @@ inquirer
     ])
 
     .then((answer) => {
-        return fs.appendFileSync(path.join (process.cwd(), 'README.md'), markdown(answer))
+        return fs.writeFileSync(path.join (process.cwd(), 'README.md'), markdown(answer))
     });
 }
 
