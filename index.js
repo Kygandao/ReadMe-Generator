@@ -49,7 +49,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What is the test process?',
+            message: 'What tests are included to ensure the applicaiton is working?',
             name: 'tests',
         },
         {

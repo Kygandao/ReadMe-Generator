@@ -27,7 +27,8 @@ function renderLicenseBadge(answer) {
     licenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   } else if (licenseType === 'The Unlicense') {
     licenseBadge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
-  }
+  } else (licenseType === 'None')
+    licenseBadge = ' ';
   return licenseBadge
 };
 
@@ -36,15 +37,15 @@ function generateMarkdown(answer) {
 # ${answer.title}
   
 ## Table of Contents:
-  1. [Username](#Username)
-  2. [Email](#Email)
-  3. [Description](#Description)
-  4. [Installation](#Installation)
-  5. [Usage](#Usage)
-  6. [License](#License)
-  7. [Contribution Guidelines](#Guidelines)
-  8. [Testing](#Testing)
-  9. [Video Link](#Link)
+  1. [Username](#username)
+  2. [Email](#email)
+  3. [Description](#description)
+  4. [Installation](#installation)
+  5. [Usage](#usage)
+  6. [License](#license)
+  7. [Contribution Guidelines](#contributing-guidelines)
+  8. [Testing](#testing)
+  9. [Video Link](#video-link)
 
 ## Username
 ${answer.user}
@@ -70,7 +71,7 @@ ${answer.guidelines}
 ## Testing
 ${answer.tests}
 
-## Link to Demonstration Video
+## Video Link
 [Click here to view the video](${answer.link})
 `
 }
