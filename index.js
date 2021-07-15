@@ -52,6 +52,11 @@ inquirer
             message: 'What is the test process?',
             name: 'tests',
         },
+        {
+            type: 'input',
+            message: 'Please enter the URL to the demonstration video',
+            name: 'link'
+        }
     ])
 
     .then((answer) => {

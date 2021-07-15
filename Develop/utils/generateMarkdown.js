@@ -44,6 +44,7 @@ function generateMarkdown(answer) {
   6. [License](#License)
   7. [Contribution Guidelines](#Guidelines)
   8. [Testing](#Testing)
+  9. [Video Link](#Link)
 
 ## Username
 ${answer.user}
@@ -68,6 +69,9 @@ ${answer.guidelines}
 
 ## Testing
 ${answer.tests}
+
+## Link to Demonstration Video
+[Click here to view the video](${answer.link})
 `
 }
 
