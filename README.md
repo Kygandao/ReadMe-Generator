@@ -28,7 +28,7 @@ Node.js installed on the users computer is required. Access to VS Code integrate
 Open in integrated terminal and enter the command “node index.js”. User will then be asked as series of questions regarding the project they are creating. Once questions are answered, a ReadMe.md will be generated within the file directory. Open the ReadMe.md in preview to view the file.
 
 ## License
- 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution Guidelines
 The user will be able to enter their guidelines for any community contribution.
