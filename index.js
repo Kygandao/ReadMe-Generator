@@ -60,7 +60,7 @@ inquirer
         {
             type: 'input',
             message: 'Please enter a screenshot link for the ReadMe',
-            name: screenshot
+            name: 'screenshot'
         }
     ])
 
