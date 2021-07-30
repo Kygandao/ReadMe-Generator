@@ -56,6 +56,11 @@ inquirer
             type: 'input',
             message: 'Please enter the URL to the demonstration video',
             name: 'link'
+        },
+        {
+            type: 'input',
+            message: 'Please enter a screenshot link for the ReadMe',
+            name: screenshot
         }
     ])
 

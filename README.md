@@ -1,5 +1,5 @@
 
-# ReadMe Generator
+# Team Profile Generator
   
 ## Table of Contents:
   1. [Username](#username)
@@ -19,22 +19,22 @@ Kygandao
 kygandao23@gmail.com
 
 ## Description
-This project is designed to let the user generate a professional looking ReadMe.md for their GitHub repository by using Node.js to capture the user response.
+This javascript  application was developed to allow the user to input information about their team and generate an HTML page that displays all of the entered information.  
 
 ## Installation
-Node.js installed on the users computer is required. Access to VS Code integrated terminal or GitBash/Command Line, and Inquirer NPM are also required.
+The user must have node.js installed and access to vs code/bash terminals to run the applicaiton. No installation is nenecessary. The user will open index.js in terminal and run the command 'node index.js' Follow the prompts and the application will complete.
 
 ## Usage
-Open in integrated terminal and enter the command “node index.js”. User will then be asked as series of questions regarding the project they are creating. Once questions are answered, a ReadMe.md will be generated within the file directory. Open the ReadMe.md in preview to view the file.
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution Guidelines
-The user will be able to enter their guidelines for any community contribution.
+Please contact me for any contributions.
 
 ## Testing
-The user will enter any tests that future users will look for to ensure the application is working correctly.
+No working tests at the moment.
 
 ## Video Link
-[Click here to view the video](https://drive.google.com/file/d/1Lr05VgDO3vwGETFCBCU_Wh0hcKdEitK7/view?usp=sharing)
+[Click here to view the video](https://drive.google.com/file/d/1A04NZEtmf8KKi4EE3vc3yf4YP53oS8sS/view?usp=sharing)
