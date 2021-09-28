@@ -19,7 +19,9 @@ Kygandao
 kygandao23@gmail.com
 
 ## Description
-This javascript  application was developed to allow the user to input information about their team and generate an HTML page that displays all of the entered information.  
+This javascript  application was developed to allow the user to input information about their team and generate an HTML page that displays all of the entered information.
+
+This simple application will allow you to create professional and consistent looking ReadMe's for all of your projects!
 
 ## Installation
 The user must have node.js installed and access to vs code/bash terminals to run the applicaiton. No installation is nenecessary. The user will open index.js in terminal and run the command 'node index.js' Follow the prompts and the application will complete.
